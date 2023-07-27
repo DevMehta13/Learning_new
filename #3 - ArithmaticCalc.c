@@ -1,3 +1,6 @@
+// Program: To perform arithmatic calculation.
+// Author: Dev Mehta
+// Date: 27th July 2023.
 #include<stdio.h>
 int Calc(int number1,int number2,int choice){
     int value;
