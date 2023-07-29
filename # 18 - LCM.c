@@ -1,13 +1,9 @@
 #include<stdio.h>
 int findLCM(int first, int second){
-    int counter = 1, lcm = 1;
-
-    while (lcm >= (first*second)){
-        lcm = first*(counter++);
-        if(lcm%second == 0) return lcm;
-    }
+    for(int i=1; i < second; i++)
+        if((first*i)%second == 0) return (first*i);
     return first*second;
 }
 int main(){
-    printf("%d ",findLCM(3, 18));
+    printf("%d ",findLCM(27, 6));
 }
