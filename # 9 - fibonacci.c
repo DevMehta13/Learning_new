@@ -1,4 +1,4 @@
-// Program: To print hello world.
+// Program: To print fibonacci series.
 // Author: Dev Mehta
 // Date: 29th July 2023.
 #include<stdio.h>
