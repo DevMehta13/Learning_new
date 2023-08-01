@@ -22,7 +22,9 @@ int main(){
         printf("Enter the correct position.");
     }
     else{
-        swap(&arr[position-1] , &arr[size - 1]);
+        for(int j = (position - 1) ; j < (size -1) ; j++){
+        swap(&arr[j] , &arr[j+1]);
+        }
     }
     arr[size-1]='\0';
      printf("New array after deletion : ");
