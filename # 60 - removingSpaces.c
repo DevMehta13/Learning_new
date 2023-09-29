@@ -1,4 +1,4 @@
-// Program: To remove all vowels from the string.
+// Program: To remove all spaces from the string.
 // Author: Dev Mehta
 // Date: 5 Aug 2023.
 #include<stdio.h>
