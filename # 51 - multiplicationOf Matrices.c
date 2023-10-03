@@ -33,7 +33,7 @@ int main(){
     }
     for( i = 0 ; i < row1 ; i++){
         for( j = 0 ; j < column2 ; j++ ){
-            printf("%d " , result[j][i]);
+            printf("%d " , result[i][j]);
             if( j == column2 - 1){
                 printf("\n");
             }
