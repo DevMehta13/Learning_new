@@ -14,7 +14,7 @@ int main(){
         sum += random2;
         number/=10;
     }
-    if(sum=originalNumber){
+    if(sum==originalNumber){
         printf("%d is an armstrong number." , originalNumber);
     }
     else{
